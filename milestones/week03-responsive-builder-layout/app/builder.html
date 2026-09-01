@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Builder</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="builder-page">
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="index.html">PageForge</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="builder.html" aria-current="page">Builder</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="builder-intro">
+        <div>
+          <p class="eyebrow">Responsive builder shell</p>
+          <h1>Builder Workspace</h1>
+          <p>
+            This milestone turns the builder page into a layout that resembles
+            the final app: library, composition, editing notes, and preview.
+          </p>
+        </div>
+      </section>
+
+      <section class="builder-shell" aria-label="PageForge builder layout">
+        <aside class="builder-panel panel-library">
+          <h2>Blocks</h2>
+          <button class="block-option" type="button">
+            <span>Hero</span>
+            <small>Heading, text, and button</small>
+          </button>
+          <button class="block-option" type="button">
+            <span>Text</span>
+            <small>Heading and paragraph</small>
+          </button>
+          <button class="block-option" type="button">
+            <span>Image</span>
+            <small>Image and caption</small>
+          </button>
+          <button class="block-option" type="button">
+            <span>Cards</span>
+            <small>Three feature cards</small>
+          </button>
+        </aside>
+
+        <section class="builder-panel panel-editor">
+          <h2>Composition</h2>
+          <div class="placeholder-list">
+            <article>
+              <h3>Hero Section</h3>
+              <p>Placed block example. Later JavaScript will add this for real.</p>
+            </article>
+            <article>
+              <h3>Text Section</h3>
+              <p>Another example row showing where selected blocks will appear.</p>
+            </article>
+          </div>
+
+          <div class="edit-box">
+            <h2>Edit Selected Block</h2>
+            <p>
+              Form fields are intentionally deferred. This box reserves space
+              for Week 15 concepts while keeping Week 3 focused on layout.
+            </p>
+          </div>
+        </section>
+
+        <section class="builder-panel panel-preview">
+          <h2>Live Preview</h2>
+          <div class="preview-page">
+            <section class="preview-hero">
+              <h3>Preview Page Title</h3>
+              <p>A future preview will update here when blocks change.</p>
+            </section>
+            <section class="preview-content">
+              <h3>Content Section</h3>
+              <p>
+                For now, this is static placeholder content that makes the
+                layout easier to understand.
+              </p>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="index.html">PageForge</a>
+        <ul>
+          <li><a class="active" href="index.html" aria-current="page">Home</a></li>
+          <li><a href="builder.html">Builder</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="content-width hero-layout">
+          <div>
+            <p class="eyebrow">Instructor build project</p>
+            <h1>Build a page, block by block.</h1>
+            <p>
+              PageForge is becoming a small web app. This week focuses on
+              layout: arranging content areas, controlling width, and making the
+              design adapt to smaller screens.
+            </p>
+            <a class="button" href="builder.html">Open the Builder Layout</a>
+          </div>
+          <aside class="hero-callout" aria-label="Current project status">
+            <h2>Week 3 State</h2>
+            <ul>
+              <li>Shared CSS</li>
+              <li>Responsive sections</li>
+              <li>Builder workspace layout</li>
+              <li>No JavaScript yet</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="content-width">
+          <h2>Layout Decisions This Week</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Constrained Width</h3>
+              <p>
+                Page content sits inside a readable maximum width instead of
+                stretching endlessly across the browser.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Grid-Based Groups</h3>
+              <p>
+                Cards and builder panels use CSS Grid so related items align in
+                clear rows and columns.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Responsive Stacking</h3>
+              <p>
+                Media queries allow multi-column layouts to stack on smaller
+                screens.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="content-width narrow">
+          <h2>Why This Matters Later</h2>
+          <p>
+            The final PageForge builder will need a block library, editing
+            area, and preview area to coexist. Week 3 creates a visual structure
+            that JavaScript can make interactive in later milestones.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Week 3 milestone: responsive layout and builder workspace structure.</p>
+    </footer>
+  </body>
+</html>
