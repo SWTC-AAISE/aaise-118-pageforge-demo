@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="index.html">PageForge</a>
+        <ul>
+          <li><a class="active" href="index.html" aria-current="page">Home</a></li>
+          <li><a href="builder.html">Builder</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="content-width hero-layout">
+          <div>
+            <p class="eyebrow">Instructor build project</p>
+            <h1>Build a page, block by block.</h1>
+            <p>
+              PageForge is becoming a small web app. This week introduces
+              JavaScript values, arrays, objects, conditions, and functions that
+              describe the blocks the builder will eventually add.
+            </p>
+            <a class="button" href="builder.html">Open the Builder Layout</a>
+          </div>
+          <aside class="hero-callout" aria-label="Current project status">
+            <h2>Week 3 State</h2>
+            <ul>
+              <li>Shared CSS</li>
+              <li>Block data objects</li>
+              <li>Helper functions</li>
+              <li>Console output</li>
+              <li>Limited page output</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="content-width">
+          <h2>Logic Decisions This Week</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Blocks As Data</h3>
+              <p>
+                Each future content block starts as a JavaScript object with a
+                type, label, and description.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Decisions In Functions</h3>
+              <p>
+                Helper functions choose messages based on how many blocks are
+                available or selected.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Console First</h3>
+              <p>
+                Some output appears in the browser console so students can see
+                JavaScript run before it controls the page.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="content-width narrow">
+          <h2>Why This Matters Later</h2>
+          <p>
+            The final PageForge builder will need block definitions before it
+            can render buttons, edit controls, previews, or exported HTML. Week
+            4 creates that logic foundation without rushing into full
+            interaction.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Week 4 milestone: JavaScript block data and helper logic.</p>
+    </footer>
+  </body>
+</html>
