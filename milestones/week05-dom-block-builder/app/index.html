@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="index.html">PageForge</a>
+        <ul>
+          <li><a class="active" href="index.html" aria-current="page">Home</a></li>
+          <li><a href="builder.html">Builder</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="content-width hero-layout">
+          <div>
+            <p class="eyebrow">Instructor build project</p>
+            <h1>Build a page, block by block.</h1>
+            <p>
+              PageForge is becoming interactive. This week connects JavaScript
+              data to visible page changes: buttons appear from block data, and
+              clicks add blocks to the composition.
+            </p>
+            <a class="button" href="builder.html">Open the Builder Layout</a>
+          </div>
+          <aside class="hero-callout" aria-label="Current project status">
+            <h2>Week 3 State</h2>
+            <ul>
+              <li>Shared CSS</li>
+              <li>Rendered buttons</li>
+              <li>Click events</li>
+              <li>Composition updates</li>
+              <li>Simple live preview</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="content-width">
+          <h2>Interaction Decisions This Week</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Render From Data</h3>
+              <p>
+                JavaScript creates block buttons from the block library instead
+                of writing every button by hand in HTML.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Respond To Clicks</h3>
+              <p>
+                Click events add selected blocks to the composition area.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Update The Page</h3>
+              <p>
+                The composition and preview update when the user adds blocks.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="content-width narrow">
+          <h2>Why This Matters Later</h2>
+          <p>
+            The final PageForge builder depends on a loop: user action changes
+            data, then JavaScript updates what the user sees. Week 5 introduces
+            that loop in a small, readable form.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Week 5 milestone: DOM interaction and block adding.</p>
+    </footer>
+  </body>
+</html>
