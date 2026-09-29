@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Builder</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="builder-page">
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="index.html">PageForge</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="builder.html" aria-current="page">Builder</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="builder-intro">
+        <div>
+          <p class="eyebrow">Responsive builder shell</p>
+          <h1>Builder Workspace</h1>
+          <p>
+            This milestone keeps the builder behavior familiar while organizing
+            the JavaScript into clearer functions.
+          </p>
+        </div>
+      </section>
+
+      <section class="builder-shell" aria-label="PageForge builder layout">
+        <aside class="builder-panel panel-library">
+          <h2>Blocks</h2>
+          <div id="library-panel"></div>
+        </aside>
+
+        <section class="builder-panel panel-editor">
+          <h2>Composition</h2>
+          <p id="builder-status" class="logic-output">
+            Choose a block to start building.
+          </p>
+          <div id="composition-list" class="placeholder-list"></div>
+
+          <div class="edit-box">
+            <h2>Structure Notes</h2>
+            <p>
+              The visible behavior is intentionally similar to Week 6. The
+              important change is inside the script: clearer function names,
+              grouped responsibilities, and a single render flow.
+            </p>
+          </div>
+        </section>
+
+        <section class="builder-panel panel-preview">
+          <h2>Live Preview</h2>
+          <div id="preview-page" class="preview-page"></div>
+        </section>
+      </section>
+    </main>
+    <script src="assets/js/builder.js"></script>
+  </body>
+</html>
