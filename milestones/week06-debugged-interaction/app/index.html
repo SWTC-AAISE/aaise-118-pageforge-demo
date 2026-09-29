@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Home</title>
+    <link rel="stylesheet" href="assets/css/styles-alt.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-logo" href="index.html">PageForge</a>
+        <ul>
+          <li>
+            <a class="active" href="index.html" aria-current="page">Home</a>
+          </li>
+          <li><a href="builder.html">Builder</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="content-width hero-layout">
+          <div>
+            <p class="eyebrow">Instructor build project</p>
+            <h1>Build a page, block by block.</h1>
+            <p>
+              PageForge is becoming more reliable. This week focuses on
+              debugging the interactive builder and verifying that page updates
+              still work after changes.
+            </p>
+            <a class="button" href="builder.html">Open the Builder Layout</a>
+          </div>
+          <aside class="hero-callout" aria-label="Current project status">
+            <h2>Week 3 State</h2>
+            <ul>
+              <li>Shared CSS</li>
+              <li>Verified selectors</li>
+              <li>Remove buttons</li>
+              <li>Status updates</li>
+              <li>Safer block lookup</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="content-width">
+          <h2>Debugging Decisions This Week</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Check The Selector</h3>
+              <p>
+                A small mismatch between an HTML id and a JavaScript selector
+                can stop the whole interaction from running.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Verify Each Step</h3>
+              <p>
+                The builder can be checked one step at a time: library buttons,
+                composition list, preview, and status message.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Handle Missing Data</h3>
+              <p>The code now avoids crashing if a block type is not found.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="content-width narrow">
+          <h2>Why This Matters Later</h2>
+          <p>
+            Debugging is part of development, not a separate emergency. Week 6
+            keeps the PageForge interaction small enough to inspect and verify.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Week 6 milestone: debugged interaction and verification habits.</p>
+    </footer>
+  </body>
+</html>
