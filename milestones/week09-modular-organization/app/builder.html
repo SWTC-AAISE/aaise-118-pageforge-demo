@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Builder</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="builder-page" data-page="builder">
+    <header id="site-header" class="site-header"></header>
+    <script src="assets/js/site-nav.js"></script>
+
+    <main>
+      <section class="builder-intro">
+        <div>
+          <p class="eyebrow">Responsive builder shell</p>
+          <h1>Builder Workspace</h1>
+          <p>
+            This milestone keeps the builder familiar while separating block
+            data from builder behavior.
+          </p>
+        </div>
+      </section>
+
+      <section class="builder-shell" aria-label="PageForge builder layout">
+        <aside class="builder-panel panel-library">
+          <h2>Blocks</h2>
+          <div id="library-panel"></div>
+        </aside>
+
+        <section class="builder-panel panel-editor">
+          <h2>Composition</h2>
+          <p id="builder-status" class="logic-output">
+            Choose a block to start building.
+          </p>
+          <div id="composition-list" class="placeholder-list"></div>
+
+          <div class="edit-box">
+            <h2>Organization Notes</h2>
+            <p>
+              Modularity is the design habit of separating responsibilities.
+              Multiple files are one way this project begins to practice that
+              habit.
+            </p>
+          </div>
+        </section>
+
+        <section class="builder-panel panel-preview">
+          <h2>Live Preview</h2>
+          <div id="preview-page" class="preview-page"></div>
+        </section>
+      </section>
+    </main>
+    <script src="assets/js/blocks.js"></script>
+    <script src="assets/js/builder.js"></script>
+  </body>
+</html>

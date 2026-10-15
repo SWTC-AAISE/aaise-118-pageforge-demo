@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageForge | Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="home">
+    <header id="site-header" class="site-header"></header>
+    <script src="assets/js/site-nav.js"></script>
+
+    <main>
+      <section class="hero">
+        <div class="content-width hero-layout">
+          <div>
+            <p class="eyebrow">Instructor build project</p>
+            <h1>Build a page, block by block.</h1>
+            <p>
+              PageForge is being organized for growth. This week separates block
+              definitions from builder behavior so each file has a clearer
+              responsibility.
+            </p>
+            <a class="button" href="builder.html">Open the Builder Layout</a>
+          </div>
+          <aside class="hero-callout" aria-label="Current project status">
+            <h2>Week 3 State</h2>
+            <ul>
+              <li>Shared CSS</li>
+              <li>Modularity</li>
+              <li>Multiple JS files</li>
+              <li>Script order</li>
+              <li>Clear responsibilities</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="content-width">
+          <h2>Organization Decisions This Week</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Separate The Data</h3>
+              <p>
+                Block definitions move into their own file so builder behavior
+                is easier to read.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Respect Script Order</h3>
+              <p>
+                The data file loads before the builder file because the builder
+                depends on it.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Modularity First</h3>
+              <p>
+                The design idea matters even before formal module syntax is
+                introduced.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="content-width narrow">
+          <h2>Why This Matters Later</h2>
+          <p>
+            Larger projects need organization. Week 9 keeps the app small while
+            showing how separate files can make responsibilities clearer.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Week 9 milestone: modular organization across JavaScript files.</p>
+    </footer>
+  </body>
+</html>

@@ -143,7 +143,7 @@ function schedulePreviewRender() {
   appState.previewTimer = setTimeout(function () {
     renderPreview();
     appState.previewTimer = null;
-  }, 600);
+  }, 1000);
 }
 
 function renderPreview() {
